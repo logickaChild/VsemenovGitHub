@@ -1,36 +1,61 @@
+h1{
+font-size:50px;
+ color:gold;
+ text-align:center;
+ text-decoration: underline;
+}
 body {
+      background-image: url("https://avatars.mds.yandex.net/get-pdb/2836724/95670683-1f70-4f6d-bfca-25a344ebb8ff/orig") ;
+    background-position: 0 0;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    font-family:cursive;
+    background-color:MediumTurquoise;
+}
+.icon{
+border: 10px solid gold;
+border-radius: 10px;
+margin: 5px;
+}
+
+nav a{
+background-color:yellow;
+border:3px solid black;
+text-align:center;
+margin: 50px;
+border-radius: 10px;
+padding: 10px;
+font-family: orksygen;
+}
+footer{
     font-family: sans-serif;
+    text-align:center;
+    font-size:25px;
+    margin: 5px;
+border-radius: 10px;
+background-color:snow;
+ color:Chocolate;
+ text-decoration: underline overline;
+}
+main p{
+font-family: sans-serif;
+color: ForestGreen;
+font-size:23px;
+margin: 5px;
+border-radius: 10px;
+text-align: justify;
+}
+.galerey{
+ text-align: center;
+}
+.gyrland{
+    text-align: left;
 }
 
-h1 {
-    text-align: center;
-    font-size: 60px;
-}
-
-h2{
-    font-size: 40px;
-    background-color: peru;
-}
-
-a {
-    color: black;
-    font-size: 20px;
-}
-
-p, img {
-    border: 3px solid peru;
-}
-
-p, table {
-    font-size: 20px;
-}
-
-table{
-    background-color: lightyellow;
-    text-align: center;
-    border-collapse: collapse;
-}
-
-td{
-    border: 1px solid brown;
-}
+header{  
+    padding: 20px;
+    }
+    nav{
+        background-color: none;
+    }
+   
