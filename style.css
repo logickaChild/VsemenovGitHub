@@ -1,82 +1,187 @@
 body {
     font-family: sans-serif;
 }
+html{
+   
+}
 html,body{
-    margin: 0;
+    margin: 0; 
     padding: 0;
     box-sizing: border-box;
 }
+
+section{
+    padding: 20px 40px;
+
+}
+.hero{
+    display: flex;
+    text-align: center;
+    margin-bottom: 40px;
+     background-image: image-set("https://static.tildacdn.one/tild3332-3261-4133-a161-366663666566/Union.svg");
+}
+p{
+       font-size: 20px;
+}
+header{
+    padding: 20px 40px;
+}
+.hero div {
+    padding: 5px ;
+    text-align: center;
+}
+
 main{
     margin-bottom: 50px;
-    background-image: image-set("https://static.tildacdn.one/tild3332-3261-4133-a161-366663666566/Union.svg");
+   
 }
 nav a{
     background-color: #602B7A;
     border-radius: 10px;
     text-align: center;
     padding: 25px;
-    font-size: 15px;
+    text-decoration: none;
+    font-size: 20px;
     box-shadow: 5px 5px 5px black;
     transition: 0.5s linear;
     color: white;
 
 }
+.tabor a{
+     background-color: #602B7A;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px black;
+    transition: 0.5s linear;
+    color: white;
+}
 nav{
     display: flex;
     justify-content: space-between;
 }
-nav a:hover{
+ a:hover{
     background-color: #AB00FF;
     transition: 0.5s;
 }
+.teachers{
+ text-align: center;
+}
+.teachers__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+h2{
+    font-size: 40px;
+}
+.teachers__container div{
+background: url("https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-1-avatar-2754574_120513.png");
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    border-radius: 50%;
+}
+.tabor{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
 .icon{
     height: 150px;
     margin: 15px;
 }
 h1{
-    text-shadow: 5px 5px 5px black;
+
     font-size: 85px;
     text-align: right;
     padding: 10px;
     margin: 25px;
 }
-h2{
-   text-align: right;
-   text-shadow: 5px 5px 5px black;
-   font-size: 25px;
-   font-family: Verdana;
-}
-h3{
-   text-shadow: 5px 5px 5px black;
-   font-size: 35px;
-   text-align: center;
-   font-family: Verdana;
-}
-h4{
-   text-shadow: 5px 5px 5px black;
-   font-size: 20px;
-   text-align: center;
-   font-family: Verdana;
-   padding: 10px;
-}
-p{
-    color: black;
-    text-align: justify;
-    font-size: 25px;
-    font-family: cursive;
-}
-.tabor{
-    text-align: center;
-}
-.load{
-    border-radius: 25px;
-    border: 3px solid gray;
-    background-color: gray;
-    box-shadow: 5px 5px 5px black;
+
+
+
+
+.about{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
+.about article{
+    display: flex;
+    align-items: center;
+    min-height: 400px;
+    flex-direction: column; 
+    justify-content: space-between;
+     background-color: #D9D9D9;
+     border-radius: 10px;
+     width: 30%;
+     padding: 10px;
+     text-align: center;
+     
+
+}
+.about div{
+    background-repeat:no-repeat ;
+     background-position: 50% 100%;
+     padding: 10px;
+   
+}
+.about__bc{
+  width: 100%;
+ height: 200px;
+  
+background-repeat: no-repeat;
+   
+    background: url("https://optim.tildacdn.one/tild6539-6233-4736-b737-313832656336/-/resize/154x/-/format/webp/Group_1513-min.png");
+}
+.about__bcc{
+    background: url("//optim.tildacdn.one/tild3334-6336-4336-b631-316538343365/-/resize/169x/-/format/webp/Group_1396-min.png");
+    width: 100%;
+    min-height: 200px;
+  
+  
+   
+}
+.teachers .fourht{
+    background-image: url("https://cdn.icon-icons.com/icons2/3708/PNG/512/man_person_people_avatar_icon_230017.png");
+}
+.teachers .second{
+background-image: url("https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-9-avatar-2754584_120518.png");
+}
+.teachers .third{
+    background-image: url("https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-2-avatar-2754578_120514.png");
+}
+.about__b{  width: 100%;
+ height: 200px;
+    background: url("https://optim.tildacdn.one/tild3765-6532-4566-a339-363536326533/-/resize/216x/-/format/webp/Group_1423-min.png");
+}
+
 .uicon{
     width: 800px;
     height: 250px;
+}
+footer{
+  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h3{
+    font-size: 36px;
+}
+
+.uicon{
+    background: url("https://optim.tildacdn.one/tild3836-3539-4437-b136-333239376135/-/format/webp/Group_1656-min.png");
+    margin: o auto;
+width: 100%;
+    min-height: 300px;
 }
