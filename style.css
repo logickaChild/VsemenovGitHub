@@ -6,10 +6,6 @@ html,body{
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    margin-bottom: 50px;
-    background-image: image-set("https://static.tildacdn.one/tild3332-3261-4133-a161-366663666566/Union.svg");
-}
 nav a{
     background-color: #602B7A;
     border-radius: 10px;
@@ -30,6 +26,7 @@ nav a:hover{
     transition: 0.5s;
 }
 main {
+    margin-bottom: 50px;
     background-image: image-set("https://static.tildacdn.one/tild3332-3261-4133-a161-366663666566/Union.svg");
 }
 .icon{
