@@ -75,6 +75,10 @@ p{
     text-shadow: 5px 5px 5px black;
     font-family: cursive;
 }
+section{
+    display: flex;
+    justify-content: center;
+}
 .tabor{
     text-align: center;
 }
