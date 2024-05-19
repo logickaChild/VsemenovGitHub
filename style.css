@@ -1,36 +1,30 @@
 body {
     font-family: sans-serif;
 }
-.cool a{
-    background-color: #602B7A;
-    border-radius: 10px;
-    width: 15px;
-    height: 15px;
-    text-align: center;
-    margin: 25px;
-    padding: 25px;
-    font-size: 15px;
-    box-shadow: 5px 5px 5px black;
-    transition: 0.5s linear;
-    color: white;
-
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
+header{
+    margin-bottom: 50px;
+    background-image: image-set("https://static.tildacdn.one/tild3332-3261-4133-a161-366663666566/Union.svg");
+}
 nav a{
     background-color: #602B7A;
     border-radius: 10px;
-    width: 10px;
-    height: 5px;
     text-align: center;
-    margin: 25px;
     padding: 25px;
     font-size: 15px;
     box-shadow: 5px 5px 5px black;
     transition: 0.5s linear;
     color: white;
-    font-family: cursive;
-}
 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
 nav a:hover{
     background-color: #AB00FF;
     transition: 0.5s;
