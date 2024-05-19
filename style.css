@@ -6,6 +6,10 @@ html,body{
     padding: 0;
     box-sizing: border-box;
 }
+main{
+    margin-bottom: 50px;
+    background-image: image-set("https://static.tildacdn.one/tild3332-3261-4133-a161-366663666566/Union.svg");
+}
 nav a{
     background-color: #602B7A;
     border-radius: 10px;
@@ -15,7 +19,7 @@ nav a{
     box-shadow: 5px 5px 5px black;
     transition: 0.5s linear;
     color: white;
-
+    font-family: cursive;
 }
 nav{
     display: flex;
@@ -24,10 +28,6 @@ nav{
 nav a:hover{
     background-color: #AB00FF;
     transition: 0.5s;
-}
-main {
-    margin-bottom: 50px;
-    background-image: image-set("https://static.tildacdn.one/tild3332-3261-4133-a161-366663666566/Union.svg");
 }
 .icon{
     height: 150px;
@@ -64,10 +64,6 @@ p{
     text-align: justify;
     font-size: 25px;
     font-family: cursive;
-}
-section{
-    display: flex;
-    justify-content: center;
 }
 .tabor{
     text-align: center;
