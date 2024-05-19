@@ -19,7 +19,7 @@ nav a{
     box-shadow: 5px 5px 5px black;
     transition: 0.5s linear;
     color: white;
-    font-family: cursive;
+
 }
 nav{
     display: flex;
@@ -73,6 +73,8 @@ p{
     border: 3px solid gray;
     background-color: gray;
     box-shadow: 5px 5px 5px black;
+    display: flex;
+    justify-content: center;
 }
 .uicon{
     width: 800px;
